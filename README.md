@@ -1,2 +1,2 @@
-# digit_change_C
-transfer the 10 digit number to other digit
+# Change_Digit.c
+transfer the 10 digit number(Decimal number) to other digit (for example, to binary number)
