@@ -1,7 +1,18 @@
 #include<stdio.h>
+#include<conio.h>
 
-int main() {
+#define ENTER 13
 
+void main(void) {
+	int ch;
 
-	return 0;
+	printf("아스키 코드로 변환할 키를 누르시오...\n");
+	printf("Enter 키를 누르면 프로그램은 종료됩니다.\n");
+	
+	do
+	{
+		ch = getch();
+		printf("문자:(%c), 아스키 코드 = (%d) \n", ch, ch);
+	} while (ch != ENTER);
+
 }
